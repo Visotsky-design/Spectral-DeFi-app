@@ -1,0 +1,41 @@
+import SwiftUI
+public enum PrimitiveColors {
+    // neutral semantic
+    public static let neutral100: Color = Color(hex: "#ffffff")
+    public static let neutral200: Color = Color(hex: "#f1f2f3")
+    public static let neutral300: Color = Color(hex: "#dce0e2")
+    public static let neutral400: Color = Color(hex: "#bcc0c3")
+    public static let neutral500: Color = Color(hex: "#879198")
+    public static let neutral600: Color = Color(hex: "#556069")
+    public static let neutral700: Color = Color(hex: "#2f3940")
+    public static let neutral800: Color = Color(hex: "#171f24")
+    public static let neutral900: Color = Color(hex: "#0b1013")
+    public static let neutral1000: Color = Color(hex: "#05080a")
+    // accent semantic
+    public static let accent100: Color = Color(hex: "#fa3e0014")
+    public static let accent200: Color = Color(hex: "#fa3e0029")
+    public static let accent300: Color = Color(hex: "#fa3e003d")
+    public static let accent400: Color = Color(hex: "#fa3e0066")
+    public static let accent500: Color = Color(hex: "#fa3e008f")
+    public static let accent600: Color = Color(hex: "#fa3e00b8")
+    public static let accent700: Color = Color(hex: "#fa3e00d6")
+    public static let accent800: Color = Color(hex: "#fa3e00")
+    // success semantic
+    public static let success100: Color = Color(hex: "#00848414")
+    public static let success200: Color = Color(hex: "#00848429")
+    public static let success300: Color = Color(hex: "#0084843d")
+    public static let success400: Color = Color(hex: "#00848466")
+    public static let success500: Color = Color(hex: "#0084848f")
+    public static let success600: Color = Color(hex: "#008484b8")
+    public static let success700: Color = Color(hex: "#008484d6")
+    public static let success800: Color = Color(hex: "#008484")
+    // critical semantic
+    public static let critical100: Color = Color(hex: "#eb174c0f")
+    public static let critical200: Color = Color(hex: "#eb174c1f")
+    public static let critical300: Color = Color(hex: "#eb174c3d")
+    public static let critical400: Color = Color(hex: "#eb174c66")
+    public static let critical500: Color = Color(hex: "#eb174c8f")
+    public static let critical600: Color = Color(hex: "#eb174cb8")
+    public static let critical700: Color = Color(hex: "#eb174cd6")
+    public static let critical800: Color = Color(hex: "#eb174c")
+}

@@ -1,0 +1,440 @@
+{
+  "surface": {
+    "neutral": {
+      "primary_dark": {
+        "$type": "color",
+        "$value": "{color.neutral.1000}"
+      },
+      "secondary_dark": {
+        "$type": "color",
+        "$value": "{color.neutral.900}"
+      },
+      "tertiary_dark": {
+        "$type": "color",
+        "$value": "{color.neutral.800}"
+      },
+      "disabled_dark": {
+        "$type": "color",
+        "$value": "{color.neutral.700}"
+      },
+      "faint_dark": {
+        "$type": "color",
+        "$value": "{color.neutral.600}"
+      },
+      "faint_light": {
+        "$type": "color",
+        "$value": "{color.neutral.500}"
+      },
+      "disabled_light": {
+        "$type": "color",
+        "$value": "{color.neutral.400}"
+      },
+      "tertiary_light": {
+        "$type": "color",
+        "$value": "{color.neutral.300}"
+      },
+      "secondary_light": {
+        "$type": "color",
+        "$value": "{color.neutral.200}"
+      },
+      "primary_light": {
+        "$type": "color",
+        "$value": "{color.neutral.100}"
+      }
+    },
+    "accent": {
+      "primary": {
+        "$type": "color",
+        "$value": "{color.accent.800}"
+      },
+      "secondary": {
+        "$type": "color",
+        "$value": "{color.accent.700}"
+      },
+      "tertiary": {
+        "$type": "color",
+        "$value": "{color.accent.600}"
+      },
+      "disabled": {
+        "$type": "color",
+        "$value": "{color.accent.500}"
+      },
+      "faint-400": {
+        "$type": "color",
+        "$value": "{color.accent.400}"
+      },
+      "faint-300": {
+        "$type": "color",
+        "$value": "{color.accent.300}"
+      },
+      "faint-200": {
+        "$type": "color",
+        "$value": "{color.accent.200}"
+      },
+      "faint-100": {
+        "$type": "color",
+        "$value": "{color.accent.100}"
+      }
+    },
+    "success": {
+      "primary": {
+        "$type": "color",
+        "$value": "{color.success.800}"
+      },
+      "secondary": {
+        "$type": "color",
+        "$value": "{color.success.700}"
+      },
+      "tertiary": {
+        "$type": "color",
+        "$value": "{color.success.600}"
+      },
+      "disabled": {
+        "$type": "color",
+        "$value": "{color.success.500}"
+      },
+      "faint-400": {
+        "$type": "color",
+        "$value": "{color.success.400}"
+      },
+      "faint-300": {
+        "$type": "color",
+        "$value": "{color.success.300}"
+      },
+      "faint-200": {
+        "$type": "color",
+        "$value": "{color.success.200}"
+      },
+      "faint-100": {
+        "$type": "color",
+        "$value": "{color.success.100}"
+      }
+    },
+    "critical": {
+      "primary": {
+        "$type": "color",
+        "$value": "{color.critical.800}"
+      },
+      "secondary": {
+        "$type": "color",
+        "$value": "{color.critical.700}"
+      },
+      "tertiary": {
+        "$type": "color",
+        "$value": "{color.critical.600}"
+      },
+      "disabled": {
+        "$type": "color",
+        "$value": "{color.critical.500}"
+      },
+      "faint-400": {
+        "$type": "color",
+        "$value": "{color.critical.400}"
+      },
+      "faint-300": {
+        "$type": "color",
+        "$value": "{color.critical.300}"
+      },
+      "faint-200": {
+        "$type": "color",
+        "$value": "{color.critical.200}"
+      },
+      "faint-100": {
+        "$type": "color",
+        "$value": "{color.critical.100}"
+      }
+    }
+  },
+  "border": {
+    "neutral": {
+      "primary_dark": {
+        "$type": "color",
+        "$value": "{color.neutral.1000}"
+      },
+      "secondary_dark": {
+        "$type": "color",
+        "$value": "{color.neutral.900}"
+      },
+      "tertiary_dark": {
+        "$type": "color",
+        "$value": "{color.neutral.800}"
+      },
+      "disabled_dark": {
+        "$type": "color",
+        "$value": "{color.neutral.700}"
+      },
+      "faint_dark": {
+        "$type": "color",
+        "$value": "{color.neutral.600}"
+      },
+      "faint_light": {
+        "$type": "color",
+        "$value": "{color.neutral.500}"
+      },
+      "disabled_light": {
+        "$type": "color",
+        "$value": "{color.neutral.400}"
+      },
+      "tertiary_light": {
+        "$type": "color",
+        "$value": "{color.neutral.300}"
+      },
+      "secondary_light": {
+        "$type": "color",
+        "$value": "{color.neutral.200}"
+      },
+      "primary_light": {
+        "$type": "color",
+        "$value": "{color.neutral.100}"
+      }
+    },
+    "accent": {
+      "primary": {
+        "$type": "color",
+        "$value": "{color.accent.800}"
+      },
+      "secondary": {
+        "$type": "color",
+        "$value": "{color.accent.700}"
+      },
+      "tertiary": {
+        "$type": "color",
+        "$value": "{color.accent.600}"
+      },
+      "disabled": {
+        "$type": "color",
+        "$value": "{color.accent.500}"
+      },
+      "faint-400": {
+        "$type": "color",
+        "$value": "{color.accent.400}"
+      },
+      "faint-300": {
+        "$type": "color",
+        "$value": "{color.accent.300}"
+      },
+      "faint-200": {
+        "$type": "color",
+        "$value": "{color.accent.200}"
+      },
+      "faint-100": {
+        "$type": "color",
+        "$value": "{color.accent.100}"
+      }
+    },
+    "success": {
+      "primary": {
+        "$type": "color",
+        "$value": "{color.success.800}"
+      },
+      "secondary": {
+        "$type": "color",
+        "$value": "{color.success.700}"
+      },
+      "tertiary": {
+        "$type": "color",
+        "$value": "{color.success.600}"
+      },
+      "disabled": {
+        "$type": "color",
+        "$value": "{color.success.500}"
+      },
+      "faint-400": {
+        "$type": "color",
+        "$value": "{color.success.400}"
+      },
+      "faint-300": {
+        "$type": "color",
+        "$value": "{color.success.300}"
+      },
+      "faint-200": {
+        "$type": "color",
+        "$value": "{color.success.200}"
+      },
+      "faint-100": {
+        "$type": "color",
+        "$value": "{color.success.100}"
+      }
+    },
+    "critical": {
+      "primary": {
+        "$type": "color",
+        "$value": "{color.critical.800}"
+      },
+      "secondary": {
+        "$type": "color",
+        "$value": "{color.critical.700}"
+      },
+      "tertiary": {
+        "$type": "color",
+        "$value": "{color.critical.600}"
+      },
+      "disabled": {
+        "$type": "color",
+        "$value": "{color.critical.500}"
+      },
+      "faint-400": {
+        "$type": "color",
+        "$value": "{color.critical.400}"
+      },
+      "faint-300": {
+        "$type": "color",
+        "$value": "{color.critical.300}"
+      },
+      "faint-200": {
+        "$type": "color",
+        "$value": "{color.critical.200}"
+      },
+      "faint-100": {
+        "$type": "color",
+        "$value": "{color.critical.100}"
+      }
+    }
+  },
+  "text": {
+    "neutral": {
+      "primary_dark": {
+        "$type": "color",
+        "$value": "{color.neutral.1000}"
+      },
+      "secondary_dark": {
+        "$type": "color",
+        "$value": "{color.neutral.900}"
+      },
+      "tertiary_dark": {
+        "$type": "color",
+        "$value": "{color.neutral.800}"
+      },
+      "disabled_dark": {
+        "$type": "color",
+        "$value": "{color.neutral.700}"
+      },
+      "faint_dark": {
+        "$type": "color",
+        "$value": "{color.neutral.600}"
+      },
+      "faint_light": {
+        "$type": "color",
+        "$value": "{color.neutral.500}"
+      },
+      "disabled_light": {
+        "$type": "color",
+        "$value": "{color.neutral.400}"
+      },
+      "tertiary_light": {
+        "$type": "color",
+        "$value": "{color.neutral.300}"
+      },
+      "secondary_light": {
+        "$type": "color",
+        "$value": "{color.neutral.200}"
+      },
+      "primary_light": {
+        "$type": "color",
+        "$value": "{color.neutral.100}"
+      }
+    },
+    "accent": {
+      "primary": {
+        "$type": "color",
+        "$value": "{color.accent.800}"
+      },
+      "secondary": {
+        "$type": "color",
+        "$value": "{color.accent.700}"
+      },
+      "tertiary": {
+        "$type": "color",
+        "$value": "{color.accent.600}"
+      },
+      "disabled": {
+        "$type": "color",
+        "$value": "{color.accent.500}"
+      },
+      "faint-400": {
+        "$type": "color",
+        "$value": "{color.accent.400}"
+      },
+      "faint-300": {
+        "$type": "color",
+        "$value": "{color.accent.300}"
+      },
+      "faint-200": {
+        "$type": "color",
+        "$value": "{color.accent.200}"
+      },
+      "faint-100": {
+        "$type": "color",
+        "$value": "{color.accent.100}"
+      }
+    },
+    "success": {
+      "primary": {
+        "$type": "color",
+        "$value": "{color.success.800}"
+      },
+      "secondary": {
+        "$type": "color",
+        "$value": "{color.success.700}"
+      },
+      "tertiary": {
+        "$type": "color",
+        "$value": "{color.success.600}"
+      },
+      "disabled": {
+        "$type": "color",
+        "$value": "{color.success.500}"
+      },
+      "faint-400": {
+        "$type": "color",
+        "$value": "{color.success.400}"
+      },
+      "faint-300": {
+        "$type": "color",
+        "$value": "{color.success.300}"
+      },
+      "faint-200": {
+        "$type": "color",
+        "$value": "{color.success.200}"
+      },
+      "faint-100": {
+        "$type": "color",
+        "$value": "{color.success.100}"
+      }
+    },
+    "critical": {
+      "primary": {
+        "$type": "color",
+        "$value": "{color.critical.800}"
+      },
+      "secondary": {
+        "$type": "color",
+        "$value": "{color.critical.700}"
+      },
+      "tertiary": {
+        "$type": "color",
+        "$value": "{color.critical.600}"
+      },
+      "disabled": {
+        "$type": "color",
+        "$value": "{color.critical.500}"
+      },
+      "faint-400": {
+        "$type": "color",
+        "$value": "{color.critical.400}"
+      },
+      "faint-300": {
+        "$type": "color",
+        "$value": "{color.critical.300}"
+      },
+      "faint-200": {
+        "$type": "color",
+        "$value": "{color.critical.200}"
+      },
+      "faint-100": {
+        "$type": "color",
+        "$value": "{color.critical.100}"
+      }
+    }
+  }
+}
