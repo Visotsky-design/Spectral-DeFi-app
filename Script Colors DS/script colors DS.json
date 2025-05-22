@@ -1,0 +1,30 @@
+[
+  {
+    "properties": {
+      "steps": 10,
+      "hue": {
+        "start": 205,
+        "end": 205,
+        "curve": "easeInOutSine"
+      },
+      "saturation": {
+        "start": 0,
+        "end": 1,
+        "rate": 0.5,
+        "curve": "linear"
+      },
+      "brightness": {
+        "start": 0.98,
+        "end": 0.05,
+        "curve": "easeInOutQuad"
+      }
+    },
+    "options": {
+      "minorSteps": [],
+      "name": "Blue",
+      "lockHex": "BCC0C3",
+      "provideInverted": false,
+      "rotation": "clockwise"
+    }
+  }
+]
