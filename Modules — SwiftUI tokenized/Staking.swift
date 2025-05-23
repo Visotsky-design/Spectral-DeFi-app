@@ -6,8 +6,7 @@ struct ContentView: View {
       VStack(alignment: .leading, spacing: ProxySizes.size8) {
         HStack(alignment: .top, spacing: ProxySizes.size0) {
           Text("Stake")
-            .titleXHero()
-            
+            .titleXHero()            
             .foregroundColor(ProxyColors.textNeutralPrimary_Dark)
         }
         .padding(EdgeInsets(top: ProxySizes.size0, leading: ProxySizes.size6, bottom: ProxySizes.size0, trailing: ProxySizes.size6))
@@ -16,19 +15,16 @@ struct ContentView: View {
             VStack(alignment: .leading, spacing: ProxySizes.size6) {
               HStack(alignment: .top, spacing: ProxySizes.size5_5) {
                 Text("All pools have been\ninspected")
-                  .bodyMediumSem()
-                  
+                  .bodyMediumSem()                  
                   .foregroundColor(ProxyColors.textNeutralPrimary_Light)
                 HStack(alignment: .top, spacing: ProxySizes.size0) {
                   HStack(spacing: ProxySizes.size0_5) {
                     ZStack() {
-
                     }
                     .frame(width: ProxySizes.size4, height: ProxySizes.size4)
                     HStack(spacing: ProxySizes.size0) {
                       Text("Audited")
-                        .bodySmallSem()
-                        
+                        .bodySmallSem()                        
                         .foregroundColor(ProxyColors.textNeutralSecondary_Light)
                     }
                     .padding(EdgeInsets(top: ProxySizes.size0, leading: ProxySizes.size1_5, bottom: ProxySizes.size0, trailing: ProxySizes.size1_5))
@@ -39,15 +35,12 @@ struct ContentView: View {
               }
               HStack(spacing: ProxySizes.size2) {
                 ZStack() {
-
                 }
                 .frame(width: ProxySizes.size5, height: ProxySizes.size5)
                 Text("Search")
-                  .bodyLargeMed()
-                  
+                  .bodyLargeMed()                  
                   .foregroundColor(ProxyColors.textNeutralPrimary_Light)
                 ZStack() {
-
                 }
                 .frame(width: ProxySizes.size5, height: ProxySizes.size5)
               }
@@ -63,21 +56,18 @@ struct ContentView: View {
               VStack(alignment: .leading, spacing: ProxySizes.size4) {
                 HStack(spacing: ProxySizes.size3) {
                   Text("APT (Aptos)")
-                    .titleH5()
-                    
+                    .titleH5()                    
                     .foregroundColor(ProxyColors.textNeutralPrimary_Dark)
                   HStack(spacing: ProxySizes.size2) {
                     HStack(spacing: ProxySizes.size2) {
                       HStack(spacing: ProxySizes.size1_5) {
                         Text("8.2%")
-                          .bodySmallSem()
-                          
+                          .bodySmallSem()                          
                           .foregroundColor(ProxyColors.textNeutralPrimary_Dark)
                       }
                       .frame(height: ProxySizes.size3)
                       Text("APR")
-                        .bodySmallSem()
-                        
+                        .bodySmallSem()                        
                         .foregroundColor(ProxyColors.textNeutralPrimary_Dark)
                     }
                     .padding(ProxySizes.size3_5)
@@ -86,7 +76,6 @@ struct ContentView: View {
                     HStack(alignment: .top, spacing: ProxySizes.size0) {
                       HStack(spacing: ProxySizes.size0_5) {
                         ZStack() {
-
                         }
                         .frame(width: ProxySizes.size4, height: ProxySizes.size4)
                       }
@@ -98,23 +87,19 @@ struct ContentView: View {
                 }
                 VStack(alignment: .leading, spacing: ProxySizes.size4) {
                   Text("+ $89,574")
-                    .titleH5()
-                    
+                    .titleH5()                    
                     .foregroundColor(ProxyColors.textNeutralFaint_Light)
                   Text("Available")
-                    .bodySmallSem()
-                    
+                    .bodySmallSem()                    
                     .foregroundColor(ProxyColors.textNeutralFaint_Light)
                 }
               }
               VStack(alignment: .leading, spacing: ProxySizes.size3) {
                 HStack(spacing: ProxySizes.size2) {
-
                 }
                 .frame(height: ProxySizes.size2)
                 Text("Complete 100%")
-                  .bodySmallSem()
-                  
+                  .bodySmallSem()                  
                   .foregroundColor(ProxyColors.textNeutralPrimary_Dark)
               }
             }
@@ -126,21 +111,18 @@ struct ContentView: View {
               VStack(alignment: .leading, spacing: ProxySizes.size4) {
                 HStack(spacing: ProxySizes.size3) {
                   Text("XLM (Stellar)")
-                    .titleH5()
-                    
+                    .titleH5()                    
                     .foregroundColor(ProxyColors.textNeutralPrimary_Dark)
                   HStack(spacing: ProxySizes.size2) {
                     HStack(spacing: ProxySizes.size2) {
                       HStack(spacing: ProxySizes.size1_5) {
                         Text("2.1%")
-                          .bodySmallSem()
-                          
+                          .bodySmallSem()                          
                           .foregroundColor(ProxyColors.textNeutralPrimary_Dark)
                       }
                       .frame(height: ProxySizes.size3)
                       Text("APR")
-                        .bodySmallSem()
-                        
+                        .bodySmallSem()                        
                         .foregroundColor(ProxyColors.textNeutralPrimary_Dark)
                     }
                     .padding(ProxySizes.size3_5)
@@ -149,7 +131,6 @@ struct ContentView: View {
                     HStack(alignment: .top, spacing: ProxySizes.size0) {
                       HStack(spacing: ProxySizes.size0_5) {
                         ZStack() {
-
                         }
                         .frame(width: ProxySizes.size4, height: ProxySizes.size4)
                       }
@@ -161,12 +142,10 @@ struct ContentView: View {
                 }
                 VStack(alignment: .leading, spacing: ProxySizes.size4) {
                   Text("$100,900")
-                    .titleH5()
-                    
+                    .titleH5()                    
                     .foregroundColor(ProxyColors.textNeutralFaint_Light)
                   Text("Blocked")
-                    .bodySmallSem()
-                    
+                    .bodySmallSem()                    
                     .foregroundColor(ProxyColors.textNeutralFaint_Light)
                 }
               }
@@ -187,8 +166,7 @@ struct ContentView: View {
                 }
                 .frame(height: ProxySizes.size2)
                 Text("Active 65%")
-                  .bodySmallSem()
-                  
+                  .bodySmallSem()                  
                   .foregroundColor(ProxyColors.textNeutralPrimary_Dark)
               }
             }
@@ -200,21 +178,18 @@ struct ContentView: View {
               VStack(alignment: .leading, spacing: ProxySizes.size4) {
                 HStack(spacing: ProxySizes.size3) {
                   Text("OP (Optimism)")
-                    .titleH5()
-                    
+                    .titleH5()                    
                     .foregroundColor(ProxyColors.textNeutralPrimary_Dark)
                   HStack(spacing: ProxySizes.size2) {
                     HStack(spacing: ProxySizes.size2) {
                       HStack(spacing: ProxySizes.size1_5) {
                         Text("7.4%")
-                          .bodySmallSem()
-                          
+                          .bodySmallSem()                          
                           .foregroundColor(ProxyColors.textNeutralPrimary_Dark)
                       }
                       .frame(height: ProxySizes.size3)
                       Text("APR")
-                        .bodySmallSem()
-                        
+                        .bodySmallSem()                        
                         .foregroundColor(ProxyColors.textNeutralPrimary_Dark)
                     }
                     .padding(ProxySizes.size3_5)
@@ -223,7 +198,6 @@ struct ContentView: View {
                     HStack(alignment: .top, spacing: ProxySizes.size0) {
                       HStack(spacing: ProxySizes.size0_5) {
                         ZStack() {
-
                         }
                         .frame(width: ProxySizes.size4, height: ProxySizes.size4)
                       }
@@ -235,12 +209,10 @@ struct ContentView: View {
                 }
                 VStack(alignment: .leading, spacing: ProxySizes.size4) {
                   Text("$25,000")
-                    .titleH5()
-                    
+                    .titleH5()                    
                     .foregroundColor(ProxyColors.textNeutralFaint_Light)
                   Text("Blocked")
-                    .bodySmallSem()
-                    
+                    .bodySmallSem()                    
                     .foregroundColor(ProxyColors.textNeutralFaint_Light)
                 }
               }
@@ -261,8 +233,7 @@ struct ContentView: View {
                 }
                 .frame(height: ProxySizes.size2)
                 Text("Active 20%")
-                  .bodySmallSem()
-                  
+                  .bodySmallSem()                  
                   .foregroundColor(ProxyColors.textNeutralPrimary_Dark)
               }
             }
@@ -274,12 +245,10 @@ struct ContentView: View {
           VStack(alignment: .leading, spacing: ProxySizes.size8) {
             HStack(spacing: ProxySizes.size0) {
               Text("Position history")
-                .titleH5()
-                
+                .titleH5()                
                 .foregroundColor(ProxyColors.textNeutralDisabled_Light)
               Text("(the last 6)")
-                .bodySmallSem()
-                
+                .bodySmallSem()                
                 .foregroundColor(ProxyColors.textNeutralDisabled_Light)
             }
             .padding(EdgeInsets(top: ProxySizes.size0, leading: ProxySizes.size6, bottom: ProxySizes.size0, trailing: ProxySizes.size6))
@@ -289,23 +258,19 @@ struct ContentView: View {
                   VStack(alignment: .leading, spacing: ProxySizes.size5) {
                     HStack(spacing: ProxySizes.size2_5) {
                       ZStack() {
-
                       }
                       .frame(width: ProxySizes.size6, height: ProxySizes.size6)
                       .cornerRadius(ProxySizes.borderRadiusRound)
                       Text("Cardano")
-                        .titleH5()
-                        
+                        .titleH5()                        
                         .foregroundColor(ProxyColors.textNeutralDisabled_Light)
                     }
                     VStack(alignment: .leading, spacing: ProxySizes.size3) {
                       Text("$182,200")
-                        .titleH5()
-                        
+                        .titleH5()                        
                         .foregroundColor(ProxyColors.textNeutralDisabled_Light)
                       Text("Unblocked")
-                        .bodyXSmallSem()
-                        
+                        .bodyXSmallSem()                        
                         .foregroundColor(ProxyColors.textNeutralDisabled_Light)
                     }
                   }
@@ -313,14 +278,12 @@ struct ContentView: View {
                     HStack(spacing: ProxySizes.size0_5) {
                       HStack(spacing: ProxySizes.size0) {
                         Text("Re-embed")
-                          .bodySmallMed()
-                          
+                          .bodySmallMed()                          
                           .foregroundColor(ProxyColors.textNeutralPrimary_Light)
                       }
                       .padding(EdgeInsets(top: ProxySizes.size0, leading: ProxySizes.size1_5, bottom: ProxySizes.size0, trailing: ProxySizes.size1_5))
                       .frame(height: ProxySizes.size4)
                       ZStack() {
-
                       }
                       .frame(width: ProxySizes.size4, height: ProxySizes.size4)
                     }
@@ -333,65 +296,53 @@ struct ContentView: View {
                   HStack(spacing: ProxySizes.size0) {
                     HStack(spacing: ProxySizes.size2) {
                       ZStack() {
-
                       }
                       .frame(width: ProxySizes.size3_5, height: ProxySizes.size3_5)
                       Text("Earned")
-                        .bodyMediumSem()
-                        
+                        .bodyMediumSem()                        
                         .foregroundColor(ProxyColors.textNeutralDisabled_Light)
                     }
                     Text("$11,504")
-                      .bodyMediumSem()
-                      
+                      .bodyMediumSem()                      
                       .foregroundColor(ProxyColors.textNeutralDisabled_Light)
                   }
                   HStack(spacing: ProxySizes.size0) {
                     HStack(spacing: ProxySizes.size2) {
                       ZStack() {
-
                       }
                       .frame(width: ProxySizes.size3_5, height: ProxySizes.size3_5)
                       Text("Duration")
-                        .bodyMediumSem()
-                        
+                        .bodyMediumSem()                        
                         .foregroundColor(ProxyColors.textNeutralDisabled_Light)
                     }
                     Text("3 months")
-                      .bodyMediumSem()
-                      
+                      .bodyMediumSem()                      
                       .foregroundColor(ProxyColors.textNeutralDisabled_Light)
                   }
                   HStack(spacing: ProxySizes.size0) {
                     HStack(spacing: ProxySizes.size2) {
                       ZStack() {
-
                       }
                       .frame(width: ProxySizes.size3_5, height: ProxySizes.size3_5)
                       Text("APR")
-                        .bodyMediumSem()
-                        
+                        .bodyMediumSem()                        
                         .foregroundColor(ProxyColors.textNeutralDisabled_Light)
                     }
                     Text("4.2%")
-                      .bodyMediumSem()
-                      
+                      .bodyMediumSem()                      
                       .foregroundColor(ProxyColors.textNeutralDisabled_Light)
                   }
                   HStack(spacing: ProxySizes.size0) {
                     HStack(spacing: ProxySizes.size2) {
                       ZStack() {
-
                       }
                       .frame(width: ProxySizes.size3_5, height: ProxySizes.size3_5)
                       Text("Safe")
-                        .bodyMediumSem()
-                        
+                        .bodyMediumSem()                        
                         .foregroundColor(ProxyColors.textNeutralDisabled_Light)
                     }
                     Text("80deg")
-                      .bodyMediumSem()
-                      
+                      .bodyMediumSem()                      
                       .foregroundColor(ProxyColors.textNeutralDisabled_Light)
                   }
                 }
@@ -406,23 +357,19 @@ struct ContentView: View {
                   VStack(alignment: .leading, spacing: ProxySizes.size5) {
                     HStack(spacing: ProxySizes.size2_5) {
                       ZStack() {
-
                       }
                       .frame(width: ProxySizes.size6, height: ProxySizes.size6)
                       .cornerRadius(ProxySizes.borderRadiusRound)
                       Text("World")
-                        .titleH5()
-                        
+                        .titleH5()                        
                         .foregroundColor(ProxyColors.textNeutralDisabled_Light)
                     }
                     VStack(alignment: .leading, spacing: ProxySizes.size3) {
                       Text("$46,500")
-                        .titleH5()
-                        
+                        .titleH5()                        
                         .foregroundColor(ProxyColors.textNeutralDisabled_Light)
                       Text("Unblocked")
-                        .bodyXSmallSem()
-                        
+                        .bodyXSmallSem()                        
                         .foregroundColor(ProxyColors.textNeutralDisabled_Light)
                     }
                   }
@@ -430,14 +377,12 @@ struct ContentView: View {
                     HStack(spacing: ProxySizes.size0_5) {
                       HStack(spacing: ProxySizes.size0) {
                         Text("Re-embed")
-                          .bodySmallMed()
-                          
+                          .bodySmallMed()                          
                           .foregroundColor(ProxyColors.textNeutralPrimary_Light)
                       }
                       .padding(EdgeInsets(top: ProxySizes.size0, leading: ProxySizes.size1_5, bottom: ProxySizes.size0, trailing: ProxySizes.size1_5))
                       .frame(height: ProxySizes.size4)
                       ZStack() {
-
                       }
                       .frame(width: ProxySizes.size4, height: ProxySizes.size4)
                     }
@@ -450,65 +395,53 @@ struct ContentView: View {
                   HStack(spacing: ProxySizes.size0) {
                     HStack(spacing: ProxySizes.size2) {
                       ZStack() {
-
                       }
                       .frame(width: ProxySizes.size3_5, height: ProxySizes.size3_5)
                       Text("Earned")
-                        .bodyMediumSem()
-                        
+                        .bodyMediumSem()                        
                         .foregroundColor(ProxyColors.textNeutralDisabled_Light)
                     }
                     Text("$40,398")
-                      .bodyMediumSem()
-                      
+                      .bodyMediumSem()                      
                       .foregroundColor(ProxyColors.textNeutralDisabled_Light)
                   }
                   HStack(spacing: ProxySizes.size0) {
                     HStack(spacing: ProxySizes.size2) {
                       ZStack() {
-
                       }
                       .frame(width: ProxySizes.size3_5, height: ProxySizes.size3_5)
                       Text("Duration")
-                        .bodyMediumSem()
-                        
+                        .bodyMediumSem()                        
                         .foregroundColor(ProxyColors.textNeutralDisabled_Light)
                     }
                     Text("1 months")
-                      .bodyMediumSem()
-                      
+                      .bodyMediumSem()                      
                       .foregroundColor(ProxyColors.textNeutralDisabled_Light)
                   }
                   HStack(spacing: ProxySizes.size0) {
                     HStack(spacing: ProxySizes.size2) {
                       ZStack() {
-
                       }
                       .frame(width: ProxySizes.size3_5, height: ProxySizes.size3_5)
                       Text("APR")
-                        .bodyMediumSem()
-                        
+                        .bodyMediumSem()                        
                         .foregroundColor(ProxyColors.textNeutralDisabled_Light)
                     }
                     Text("13.7%")
-                      .bodyMediumSem()
-                      
+                      .bodyMediumSem()                      
                       .foregroundColor(ProxyColors.textNeutralDisabled_Light)
                   }
                   HStack(spacing: ProxySizes.size0) {
                     HStack(spacing: ProxySizes.size2) {
                       ZStack() {
-
                       }
                       .frame(width: ProxySizes.size3_5, height: ProxySizes.size3_5)
                       Text("Safe")
-                        .bodyMediumSem()
-                        
+                        .bodyMediumSem()                        
                         .foregroundColor(ProxyColors.textNeutralDisabled_Light)
                     }
                     Text("60deg")
-                      .bodyMediumSem()
-                      
+                      .bodyMediumSem()                      
                       .foregroundColor(ProxyColors.textNeutralDisabled_Light)
                   }
                 }
@@ -523,23 +456,19 @@ struct ContentView: View {
                   VStack(alignment: .leading, spacing: ProxySizes.size5) {
                     HStack(spacing: ProxySizes.size2_5) {
                       ZStack() {
-
                       }
                       .frame(width: ProxySizes.size6, height: ProxySizes.size6)
                       .cornerRadius(ProxySizes.borderRadiusRound)
                       Text("Near")
-                        .titleH5()
-                        
+                        .titleH5()                        
                         .foregroundColor(ProxyColors.textNeutralDisabled_Light)
                     }
                     VStack(alignment: .leading, spacing: ProxySizes.size3) {
                       Text("$47,200")
-                        .titleH5()
-                        
+                        .titleH5()                        
                         .foregroundColor(ProxyColors.textNeutralDisabled_Light)
                       Text("Unblocked")
-                        .bodyXSmallSem()
-                        
+                        .bodyXSmallSem()                        
                         .foregroundColor(ProxyColors.textNeutralDisabled_Light)
                     }
                   }
@@ -547,14 +476,12 @@ struct ContentView: View {
                     HStack(spacing: ProxySizes.size0_5) {
                       HStack(spacing: ProxySizes.size0) {
                         Text("Re-embed")
-                          .bodySmallMed()
-                          
+                          .bodySmallMed()                          
                           .foregroundColor(ProxyColors.textNeutralPrimary_Light)
                       }
                       .padding(EdgeInsets(top: ProxySizes.size0, leading: ProxySizes.size1_5, bottom: ProxySizes.size0, trailing: ProxySizes.size1_5))
                       .frame(height: ProxySizes.size4)
                       ZStack() {
-
                       }
                       .frame(width: ProxySizes.size4, height: ProxySizes.size4)
                     }
@@ -567,65 +494,53 @@ struct ContentView: View {
                   HStack(spacing: ProxySizes.size0) {
                     HStack(spacing: ProxySizes.size2) {
                       ZStack() {
-
                       }
                       .frame(width: ProxySizes.size3_5, height: ProxySizes.size3_5)
                       Text("Earned")
-                        .bodyMediumSem()
-                        
+                        .bodyMediumSem()                        
                         .foregroundColor(ProxyColors.textNeutralDisabled_Light)
                     }
                     Text("$10,398")
-                      .bodyMediumSem()
-                      
+                      .bodyMediumSem()                      
                       .foregroundColor(ProxyColors.textNeutralDisabled_Light)
                   }
                   HStack(spacing: ProxySizes.size0) {
                     HStack(spacing: ProxySizes.size2) {
                       ZStack() {
-
                       }
                       .frame(width: ProxySizes.size3_5, height: ProxySizes.size3_5)
                       Text("Duration")
-                        .bodyMediumSem()
-                        
+                        .bodyMediumSem()                        
                         .foregroundColor(ProxyColors.textNeutralDisabled_Light)
                     }
                     Text("2 months")
-                      .bodyMediumSem()
-                      
+                      .bodyMediumSem()                      
                       .foregroundColor(ProxyColors.textNeutralDisabled_Light)
                   }
                   HStack(spacing: ProxySizes.size0) {
                     HStack(spacing: ProxySizes.size2) {
                       ZStack() {
-
                       }
                       .frame(width: ProxySizes.size3_5, height: ProxySizes.size3_5)
                       Text("APR")
-                        .bodyMediumSem()
-                        
+                        .bodyMediumSem()                        
                         .foregroundColor(ProxyColors.textNeutralDisabled_Light)
                     }
                     Text("5.7%")
-                      .bodyMediumSem()
-                      
+                      .bodyMediumSem()                      
                       .foregroundColor(ProxyColors.textNeutralDisabled_Light)
                   }
                   HStack(spacing: ProxySizes.size0) {
                     HStack(spacing: ProxySizes.size2) {
                       ZStack() {
-
                       }
                       .frame(width: ProxySizes.size3_5, height: ProxySizes.size3_5)
                       Text("Safe")
-                        .bodyMediumSem()
-                        
+                        .bodyMediumSem()                        
                         .foregroundColor(ProxyColors.textNeutralDisabled_Light)
                     }
                     Text("70deg")
-                      .bodyMediumSem()
-                      
+                      .bodyMediumSem()                      
                       .foregroundColor(ProxyColors.textNeutralDisabled_Light)
                   }
                 }
@@ -647,26 +562,22 @@ struct ContentView: View {
           HStack(spacing: ProxySizes.size4) {
             HStack(spacing: ProxySizes.size0) {
               ZStack() {
-
               }
               .frame(width: ProxySizes.size6, height: ProxySizes.size6)
             }
             .cornerRadius(30)
             HStack(spacing: ProxySizes.size0) {
               ZStack() {
-
               }
               .frame(width: 26, height: 26)
             }
             .cornerRadius(30)
             HStack(spacing: ProxySizes.size2) {
               ZStack() {
-
               }
               .frame(width: ProxySizes.size6, height: ProxySizes.size6)
               Text("Staking")
-                .bodyMediumSem()
-                
+                .bodyMediumSem()                
                 .foregroundColor(ProxyColors.textNeutralPrimary_Dark)
             }
             .padding(EdgeInsets(top: 15, leading: ProxySizes.size6, bottom: 15, trailing: ProxySizes.size6))
@@ -680,7 +591,6 @@ struct ContentView: View {
                 .background(ProxyColors.surfaceCriticalPrimary)
                 .offset(x: 11.51, y: -ProxySizes.size3)
               ZStack() {
-
               }
               .frame(width: ProxySizes.size6, height: ProxySizes.size6)
             }
@@ -692,7 +602,6 @@ struct ContentView: View {
           .cornerRadius(ProxySizes.borderRadiusX_Large)
           HStack(spacing: ProxySizes.size0) {
             ZStack() {
-
             }
             .frame(width: ProxySizes.size6, height: ProxySizes.size6)
           }
@@ -720,8 +629,7 @@ struct ContentView: View {
           VStack(alignment: .leading, spacing: ProxySizes.size2) {
             ZStack() {
               Text("13:49")
-                .bodyMediumSem()
-                
+                .bodyMediumSem()                
                 .foregroundColor(ProxyColors.textNeutralPrimary_Dark)
                 .offset(x: ProxySizes.size0, y: 0.50)
             }
@@ -751,7 +659,6 @@ struct ContentView: View {
           HStack(spacing: ProxySizes.size2) {
             HStack(alignment: .top, spacing: ProxySizes.size2) {
               ZStack() {
-
               }
               .frame(width: 27.40, height: 13)
             }
@@ -762,8 +669,7 @@ struct ContentView: View {
         HStack(spacing: ProxySizes.size0) {
           HStack(spacing: ProxySizes.size0) {
             Text("Invest module")
-              .bodyLargeSem()
-              
+              .bodyLargeSem()              
               .foregroundColor(ProxyColors.textNeutralFaint_Dark)
           }
           .padding(EdgeInsets(top: 15, leading: ProxySizes.size0, bottom: 15, trailing: ProxySizes.size0))
@@ -772,13 +678,11 @@ struct ContentView: View {
             HStack(alignment: .top, spacing: ProxySizes.size0) {
               HStack(spacing: ProxySizes.size0_5) {
                 ZStack() {
-
                 }
                 .frame(width: ProxySizes.size4, height: ProxySizes.size4)
                 HStack(spacing: ProxySizes.size0) {
                   Text("Position")
-                    .bodySmallSem()
-                    
+                    .bodySmallSem()                    
                     .foregroundColor(ProxyColors.textNeutralDisabled_Dark)
                 }
                 .padding(EdgeInsets(top: ProxySizes.size0, leading: ProxySizes.size1_5, bottom: ProxySizes.size0, trailing: ProxySizes.size1_5))
