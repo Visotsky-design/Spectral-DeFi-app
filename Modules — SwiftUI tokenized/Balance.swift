@@ -13,8 +13,7 @@ struct ContentView: View {
             .blur(radius: 150))
           HStack(alignment: .top, spacing: ProxySizes.size0) {
             Text("Balance")
-              .titleXHero()
-              
+              .titleXHero()              
               .foregroundColor(ProxyColors.textNeutralPrimary_Light)
           }
           .padding(EdgeInsets(top: ProxySizes.size0, leading: ProxySizes.size6, bottom: ProxySizes.size0, trailing: ProxySizes.size6))
@@ -22,12 +21,10 @@ struct ContentView: View {
             VStack(alignment: .leading, spacing: ProxySizes.size6) {
               VStack(alignment: .leading, spacing: ProxySizes.size6) {
                 Text("2,057,974 USD")
-                  .titleH2()
-                  
+                  .titleH2()                  
                   .foregroundColor(ProxyColors.textNeutralPrimary_Light)
                 Text("Total assets")
-                  .bodyMediumSem()
-                  
+                  .bodyMediumSem()                  
                   .foregroundColor(ProxyColors.textNeutralFaint_Light)
               }
               .padding(EdgeInsets(top: ProxySizes.size2, leading: ProxySizes.size0, bottom: ProxySizes.size0, trailing: ProxySizes.size0))
@@ -50,12 +47,10 @@ struct ContentView: View {
                   .frame(height: ProxySizes.size2)
                   HStack(alignment: .bottom, spacing: ProxySizes.size2) {
                     Text("Spectral")
-                      .bodyMediumSem()
-                      
+                      .bodyMediumSem()                      
                       .foregroundColor(ProxyColors.textNeutralPrimary_Light)
                     Text("Staked")
-                      .bodyMediumSem()
-                      
+                      .bodyMediumSem()                      
                       .foregroundColor(ProxyColors.textNeutralFaint_Dark)
                   }
                 }
@@ -77,12 +72,10 @@ struct ContentView: View {
                   .frame(height: ProxySizes.size2)
                   HStack(alignment: .bottom, spacing: ProxySizes.size2) {
                     Text("Reserve")
-                      .bodyMediumSem()
-                      
+                      .bodyMediumSem()                      
                       .foregroundColor(ProxyColors.textNeutralPrimary_Light)
                     Text("Staked")
-                      .bodyMediumSem()
-                      
+                      .bodyMediumSem()                      
                       .foregroundColor(ProxyColors.textNeutralFaint_Dark)
                   }
                 }
@@ -102,17 +95,14 @@ struct ContentView: View {
             HStack(alignment: .top, spacing: ProxySizes.size5) {
               VStack(alignment: .leading, spacing: ProxySizes.size4) {
                 Text("Spectral")
-                  .titleH4()
-                  
+                  .titleH4()                  
                   .foregroundColor(ProxyColors.textNeutralPrimary_Dark)
                 HStack(spacing: ProxySizes.size1_5) {
                   ZStack() {
-
                   }
                   .frame(width: ProxySizes.size3, height: ProxySizes.size3)
                   Text("24h: $2,134")
-                    .bodyMediumSem()
-                    
+                    .bodyMediumSem()                    
                     .foregroundColor(ProxyColors.textSuccessPrimary)
                 }
               }
@@ -120,14 +110,12 @@ struct ContentView: View {
                 HStack(spacing: ProxySizes.size1) {
                   HStack(spacing: ProxySizes.size0) {
                     Text("0x41F5...d46B")
-                      .bodyMediumSem()
-                      
+                      .bodyMediumSem()                      
                       .foregroundColor(ProxyColors.textNeutralFaint_Light)
                   }
                   .padding(EdgeInsets(top: ProxySizes.size0, leading: ProxySizes.size1_5, bottom: ProxySizes.size0, trailing: ProxySizes.size1_5))
                   .frame(height: ProxySizes.size5)
                   ZStack() {
-
                   }
                   .frame(width: ProxySizes.size4_5, height: ProxySizes.size4_5)
                 }
@@ -154,12 +142,10 @@ struct ContentView: View {
               .frame(height: ProxySizes.size2)
               HStack(alignment: .bottom, spacing: ProxySizes.size2) {
                 Text("$1,079,825")
-                  .bodyMediumSem()
-                  
+                  .bodyMediumSem()                  
                   .foregroundColor(ProxyColors.textNeutralPrimary_Dark)
                 Text("$266,200")
-                  .bodyMediumSem()
-                  
+                  .bodyMediumSem()                  
                   .foregroundColor(ProxyColors.textNeutralDisabled_Light)
               }
             }
@@ -167,13 +153,11 @@ struct ContentView: View {
               HStack(alignment: .top, spacing: ProxySizes.size0) {
                 HStack(spacing: ProxySizes.size1) {
                   ZStack() {
-
                   }
                   .frame(width: ProxySizes.size4_5, height: ProxySizes.size4_5)
                   HStack(spacing: ProxySizes.size0) {
                     Text("Disable")
-                      .bodyMediumSem()
-                      
+                      .bodyMediumSem()                      
                       .foregroundColor(ProxyColors.textCriticalPrimary)
                   }
                   .padding(EdgeInsets(top: ProxySizes.size0, leading: ProxySizes.size1_5, bottom: ProxySizes.size0, trailing: ProxySizes.size1_5))
@@ -186,13 +170,11 @@ struct ContentView: View {
               HStack(alignment: .top, spacing: ProxySizes.size0) {
                 HStack(spacing: ProxySizes.size1) {
                   ZStack() {
-
                   }
                   .frame(width: ProxySizes.size4_5, height: ProxySizes.size4_5)
                   HStack(spacing: ProxySizes.size0) {
                     Text("Wallet")
-                      .bodyMediumSem()
-                      
+                      .bodyMediumSem()                      
                       .foregroundColor(ProxyColors.textNeutralTertiary_Dark)
                   }
                   .padding(EdgeInsets(top: ProxySizes.size0, leading: ProxySizes.size1_5, bottom: ProxySizes.size0, trailing: ProxySizes.size1_5))
@@ -212,17 +194,14 @@ struct ContentView: View {
             HStack(alignment: .top, spacing: ProxySizes.size5) {
               VStack(alignment: .leading, spacing: ProxySizes.size4) {
                 Text("Reserve")
-                  .titleH4()
-                  
+                  .titleH4()                  
                   .foregroundColor(ProxyColors.textNeutralPrimary_Dark)
                 HStack(spacing: ProxySizes.size1_5) {
                   ZStack() {
-
                   }
                   .frame(width: ProxySizes.size3, height: ProxySizes.size3)
                   Text("24h: $57")
-                    .bodyMediumSem()
-                    
+                    .bodyMediumSem()                    
                     .foregroundColor(ProxyColors.textCriticalPrimary)
                 }
               }
@@ -230,14 +209,12 @@ struct ContentView: View {
                 HStack(spacing: ProxySizes.size1) {
                   HStack(spacing: ProxySizes.size0) {
                     Text("0xII3P...t69G")
-                      .bodyMediumSem()
-                      
+                      .bodyMediumSem()                      
                       .foregroundColor(ProxyColors.textNeutralFaint_Light)
                   }
                   .padding(EdgeInsets(top: ProxySizes.size0, leading: ProxySizes.size1_5, bottom: ProxySizes.size0, trailing: ProxySizes.size1_5))
                   .frame(height: ProxySizes.size5)
                   ZStack() {
-
                   }
                   .frame(width: ProxySizes.size4_5, height: ProxySizes.size4_5)
                 }
@@ -264,12 +241,10 @@ struct ContentView: View {
               .frame(height: ProxySizes.size2)
               HStack(alignment: .bottom, spacing: ProxySizes.size2) {
                 Text("$228,749")
-                  .bodyMediumSem()
-                  
+                  .bodyMediumSem()                  
                   .foregroundColor(ProxyColors.textNeutralPrimary_Dark)
                 Text("$483,200")
-                  .bodyMediumSem()
-                  
+                  .bodyMediumSem()                  
                   .foregroundColor(ProxyColors.textNeutralDisabled_Light)
               }
             }
@@ -277,13 +252,11 @@ struct ContentView: View {
               HStack(alignment: .top, spacing: ProxySizes.size0) {
                 HStack(spacing: ProxySizes.size1) {
                   ZStack() {
-
                   }
                   .frame(width: ProxySizes.size4_5, height: ProxySizes.size4_5)
                   HStack(spacing: ProxySizes.size0) {
                     Text("Disable")
-                      .bodyMediumSem()
-                      
+                      .bodyMediumSem()                      
                       .foregroundColor(ProxyColors.textCriticalPrimary)
                   }
                   .padding(EdgeInsets(top: ProxySizes.size0, leading: ProxySizes.size1_5, bottom: ProxySizes.size0, trailing: ProxySizes.size1_5))
@@ -296,13 +269,11 @@ struct ContentView: View {
               HStack(alignment: .top, spacing: ProxySizes.size0) {
                 HStack(spacing: ProxySizes.size1) {
                   ZStack() {
-
                   }
                   .frame(width: ProxySizes.size4_5, height: ProxySizes.size4_5)
                   HStack(spacing: ProxySizes.size0) {
                     Text("Wallet")
-                      .bodyMediumSem()
-                      
+                      .bodyMediumSem()                      
                       .foregroundColor(ProxyColors.textNeutralTertiary_Dark)
                   }
                   .padding(EdgeInsets(top: ProxySizes.size0, leading: ProxySizes.size1_5, bottom: ProxySizes.size0, trailing: ProxySizes.size1_5))
@@ -330,12 +301,10 @@ struct ContentView: View {
             VStack(alignment: .leading, spacing: ProxySizes.size2_5) {
               HStack(spacing: ProxySizes.size2) {
                 ZStack() {
-
                 }
                 .frame(width: ProxySizes.size6, height: ProxySizes.size6)
                 Text("Balance")
-                  .bodyMediumSem()
-                  
+                  .bodyMediumSem()                  
                   .foregroundColor(ProxyColors.textNeutralPrimary_Dark)
               }
               .padding(EdgeInsets(top: 15, leading: ProxySizes.size6, bottom: 15, trailing: ProxySizes.size6))
@@ -347,14 +316,12 @@ struct ContentView: View {
             .frame(height: 62)
             HStack(spacing: ProxySizes.size0) {
               ZStack() {
-
               }
               .frame(width: 26, height: 26)
             }
             .cornerRadius(30)
             HStack(spacing: ProxySizes.size0) {
               ZStack() {
-
               }
               .frame(width: ProxySizes.size6, height: ProxySizes.size6)
             }
@@ -366,7 +333,6 @@ struct ContentView: View {
                 .background(ProxyColors.surfaceCriticalPrimary)
                 .offset(x: 11.51, y: -ProxySizes.size3)
               ZStack() {
-
               }
               .frame(width: ProxySizes.size6, height: ProxySizes.size6)
             }
@@ -378,7 +344,6 @@ struct ContentView: View {
           .cornerRadius(ProxySizes.borderRadiusX_Large)
           HStack(spacing: ProxySizes.size0) {
             ZStack() {
-
             }
             .frame(width: ProxySizes.size6, height: ProxySizes.size6)
           }
@@ -412,8 +377,7 @@ struct ContentView: View {
           VStack(alignment: .leading, spacing: ProxySizes.size2) {
             ZStack() {
               Text("13:49")
-                .bodyMediumSem()
-                
+                .bodyMediumSem()                
                 .foregroundColor(ProxyColors.textNeutralPrimary_Light)
                 .offset(x: ProxySizes.size0, y: 0.50)
             }
@@ -443,7 +407,6 @@ struct ContentView: View {
           HStack(spacing: ProxySizes.size2) {
             HStack(alignment: .top, spacing: ProxySizes.size2) {
               ZStack() {
-
               }
               .frame(width: 27.40, height: 13)
             }
@@ -454,8 +417,7 @@ struct ContentView: View {
         HStack(spacing: ProxySizes.size0) {
           HStack(spacing: ProxySizes.size0) {
             Text("Management")
-              .bodyLargeSem()
-              
+              .bodyLargeSem()              
               .foregroundColor(ProxyColors.textNeutralFaint_Light)
           }
           .padding(EdgeInsets(top: 15, leading: ProxySizes.size0, bottom: 15, trailing: ProxySizes.size0))
@@ -464,13 +426,11 @@ struct ContentView: View {
             HStack(alignment: .top, spacing: ProxySizes.size0) {
               HStack(spacing: ProxySizes.size0_5) {
                 ZStack() {
-
                 }
                 .frame(width: ProxySizes.size4, height: ProxySizes.size4)
                 HStack(spacing: ProxySizes.size0) {
                   Text("Wallet")
-                    .bodySmallMed()
-                    
+                    .bodySmallMed()                    
                     .foregroundColor(ProxyColors.textNeutralPrimary_Light)
                 }
                 .padding(EdgeInsets(top: ProxySizes.size0, leading: ProxySizes.size1_5, bottom: ProxySizes.size0, trailing: ProxySizes.size1_5))
