@@ -6,8 +6,7 @@ struct ContentView: View {
       VStack(alignment: .leading, spacing: ProxySizes.size8) {
         HStack(alignment: .top, spacing: ProxySizes.size0) {
           Text("Swap")
-            .titleXHero()
-            
+            .titleXHero()            
             .foregroundColor(ProxyColors.textNeutralPrimary_Dark)
         }
         .padding(EdgeInsets(top: ProxySizes.size0, leading: ProxySizes.size6, bottom: ProxySizes.size0, trailing: ProxySizes.size6))
@@ -20,14 +19,12 @@ struct ContentView: View {
                     HStack(spacing: ProxySizes.size0_5) {
                       HStack(spacing: ProxySizes.size0) {
                         Text("Select token")
-                          .bodySmallSem()
-                          
+                          .bodySmallSem()                          
                           .foregroundColor(ProxyColors.textNeutralTertiary_Dark)
                       }
                       .padding(EdgeInsets(top: ProxySizes.size0, leading: ProxySizes.size1_5, bottom: ProxySizes.size0, trailing: ProxySizes.size1_5))
                       .frame(height: ProxySizes.size4)
                       ZStack() {
-
                       }
                       .frame(width: ProxySizes.size4, height: ProxySizes.size4)
                     }
@@ -40,8 +37,7 @@ struct ContentView: View {
                   HStack(spacing: ProxySizes.size0_5) {
                     HStack(spacing: ProxySizes.size0) {
                       Text("Sell")
-                        .bodySmallSem()
-                        
+                        .bodySmallSem()                        
                         .foregroundColor(ProxyColors.textCriticalPrimary)
                     }
                     .padding(EdgeInsets(top: ProxySizes.size0, leading: ProxySizes.size1_5, bottom: ProxySizes.size0, trailing: ProxySizes.size1_5))
@@ -55,12 +51,10 @@ struct ContentView: View {
               VStack(alignment: .leading, spacing: ProxySizes.size8) {
                 VStack(alignment: .leading, spacing: ProxySizes.size5) {
                   Text("0.0")
-                    .titleH3()
-                    
+                    .titleH3()                    
                     .foregroundColor(ProxyColors.textNeutralFaint_Light)
                   Text("$0.0")
-                    .bodyLargeSem()
-                    
+                    .bodyLargeSem()                    
                     .foregroundColor(ProxyColors.textNeutralFaint_Light)
                     .opacity(0.80)
                 }
@@ -68,26 +62,22 @@ struct ContentView: View {
                 HStack(spacing: ProxySizes.size1) {
                   HStack(spacing: ProxySizes.size1_5) {
                     Text("Balance:")
-                      .bodyMediumSem()
-                      
+                      .bodyMediumSem()                      
                       .foregroundColor(ProxyColors.textNeutralPrimary_Dark)
                     Text("0.0")
-                      .bodyMediumSem()
-                      
+                      .bodyMediumSem()                      
                       .foregroundColor(ProxyColors.textNeutralPrimary_Dark)
                   }
                   HStack(alignment: .top, spacing: ProxySizes.size0) {
                     HStack(spacing: ProxySizes.size0_5) {
                       HStack(spacing: ProxySizes.size0) {
                         Text("Spectral")
-                          .bodySmallSem()
-                          
+                          .bodySmallSem()                          
                           .foregroundColor(ProxyColors.textNeutralFaint_Light)
                       }
                       .padding(EdgeInsets(top: ProxySizes.size0, leading: ProxySizes.size1_5, bottom: ProxySizes.size0, trailing: ProxySizes.size1_5))
                       .frame(height: ProxySizes.size4)
                       ZStack() {
-
                       }
                       .frame(width: ProxySizes.size4, height: ProxySizes.size4)
                     }
@@ -106,14 +96,12 @@ struct ContentView: View {
                     HStack(spacing: ProxySizes.size0_5) {
                       HStack(spacing: ProxySizes.size0) {
                         Text("Select token")
-                          .bodySmallSem()
-                          
+                          .bodySmallSem()                          
                           .foregroundColor(ProxyColors.textNeutralTertiary_Dark)
                       }
                       .padding(EdgeInsets(top: ProxySizes.size0, leading: ProxySizes.size1_5, bottom: ProxySizes.size0, trailing: ProxySizes.size1_5))
                       .frame(height: ProxySizes.size4)
                       ZStack() {
-
                       }
                       .frame(width: ProxySizes.size4, height: ProxySizes.size4)
                     }
@@ -126,8 +114,7 @@ struct ContentView: View {
                   HStack(spacing: ProxySizes.size0_5) {
                     HStack(spacing: ProxySizes.size0) {
                       Text("Buy")
-                        .bodySmallSem()
-                        
+                        .bodySmallSem()                        
                         .foregroundColor(ProxyColors.textSuccessPrimary)
                     }
                     .padding(EdgeInsets(top: ProxySizes.size0, leading: ProxySizes.size1_5, bottom: ProxySizes.size0, trailing: ProxySizes.size1_5))
@@ -141,12 +128,10 @@ struct ContentView: View {
               VStack(alignment: .leading, spacing: ProxySizes.size8) {
                 VStack(alignment: .leading, spacing: ProxySizes.size5) {
                   Text("0.0")
-                    .titleH3()
-                    
+                    .titleH3()                    
                     .foregroundColor(ProxyColors.textNeutralFaint_Light)
                   Text("$0.0")
-                    .bodyLargeSem()
-                    
+                    .bodyLargeSem()                    
                     .foregroundColor(ProxyColors.textNeutralFaint_Light)
                     .opacity(0.80)
                 }
@@ -154,26 +139,22 @@ struct ContentView: View {
                 HStack(spacing: ProxySizes.size1) {
                   HStack(spacing: ProxySizes.size1_5) {
                     Text("Balance:")
-                      .bodyMediumSem()
-                      
+                      .bodyMediumSem()                      
                       .foregroundColor(ProxyColors.textNeutralPrimary_Dark)
                     Text("0.0")
-                      .bodyMediumSem()
-                      
+                      .bodyMediumSem()                      
                       .foregroundColor(ProxyColors.textNeutralPrimary_Dark)
                   }
                   HStack(alignment: .top, spacing: ProxySizes.size0) {
                     HStack(spacing: ProxySizes.size0_5) {
                       HStack(spacing: ProxySizes.size0) {
                         Text("Spectral")
-                          .bodySmallSem()
-                          
+                          .bodySmallSem()                          
                           .foregroundColor(ProxyColors.textNeutralFaint_Light)
                       }
                       .padding(EdgeInsets(top: ProxySizes.size0, leading: ProxySizes.size1_5, bottom: ProxySizes.size0, trailing: ProxySizes.size1_5))
                       .frame(height: ProxySizes.size4)
                       ZStack() {
-
                       }
                       .frame(width: ProxySizes.size4, height: ProxySizes.size4)
                     }
@@ -188,7 +169,6 @@ struct ContentView: View {
             HStack(alignment: .top, spacing: ProxySizes.size0) {
               HStack(spacing: ProxySizes.size0_5) {
                 ZStack() {
-
                 }
                 .frame(width: ProxySizes.size4, height: ProxySizes.size4)
               }
@@ -202,42 +182,34 @@ struct ContentView: View {
             VStack(alignment: .leading, spacing: ProxySizes.size3) {
               HStack(spacing: 188) {
                 Text("Rate")
-                  .bodySmallSem()
-                  
+                  .bodySmallSem()                  
                   .foregroundColor(ProxyColors.textNeutralFaint_Light)
                 Text("1 USDT = 0,46 XRP")
-                  .bodySmallSem()
-                  
+                  .bodySmallSem()                  
                   .foregroundColor(ProxyColors.textNeutralFaint_Light)
               }
               HStack(spacing: 188) {
                 Text("Price impact")
-                  .bodySmallSem()
-                  
+                  .bodySmallSem()                  
                   .foregroundColor(ProxyColors.textNeutralFaint_Light)
                 Text("-0.045%")
-                  .bodySmallSem()
-                  
+                  .bodySmallSem()                  
                   .foregroundColor(ProxyColors.textNeutralFaint_Light)
               }
               HStack(spacing: 188) {
                 Text("Provider")
-                  .bodySmallSem()
-                  
+                  .bodySmallSem()                  
                   .foregroundColor(ProxyColors.textNeutralFaint_Light)
                 Text("Spectral ©")
-                  .bodySmallSem()
-                  
+                  .bodySmallSem()                  
                   .foregroundColor(ProxyColors.textNeutralFaint_Light)
               }
               HStack(spacing: 188) {
                 Text("Max slippage")
-                  .bodySmallSem()
-                  
+                  .bodySmallSem()                  
                   .foregroundColor(ProxyColors.textNeutralFaint_Light)
                 Text("0.15%")
-                  .bodySmallSem()
-                  
+                  .bodySmallSem()                  
                   .foregroundColor(ProxyColors.textNeutralFaint_Light)
               }
             }
@@ -251,13 +223,11 @@ struct ContentView: View {
       HStack(alignment: .top, spacing: ProxySizes.size0) {
         HStack(spacing: ProxySizes.size1) {
           ZStack() {
-
           }
           .frame(width: ProxySizes.size5_5, height: ProxySizes.size5_5)
           HStack(spacing: ProxySizes.size0) {
             Text("Swap")
-              .bodyLargeMed()
-              
+              .bodyLargeMed()              
               .foregroundColor(ProxyColors.textNeutralPrimary_Light)
           }
           .padding(EdgeInsets(top: ProxySizes.size0, leading: ProxySizes.size1_5, bottom: ProxySizes.size0, trailing: ProxySizes.size1_5))
@@ -284,8 +254,7 @@ struct ContentView: View {
           VStack(alignment: .leading, spacing: ProxySizes.size2) {
             ZStack() {
               Text("13:49")
-                .bodyMediumSem()
-                
+                .bodyMediumSem()                
                 .foregroundColor(ProxyColors.textNeutralPrimary_Dark)
                 .offset(x: ProxySizes.size0, y: 0.50)
             }
@@ -315,7 +284,6 @@ struct ContentView: View {
           HStack(spacing: ProxySizes.size2) {
             HStack(alignment: .top, spacing: ProxySizes.size2) {
               ZStack() {
-
               }
               .frame(width: 27.40, height: 13)
             }
@@ -328,7 +296,6 @@ struct ContentView: View {
             HStack(alignment: .top, spacing: ProxySizes.size0) {
               HStack(spacing: ProxySizes.size0_5) {
                 ZStack() {
-
                 }
                 .frame(width: ProxySizes.size4, height: ProxySizes.size4)
               }
@@ -341,12 +308,10 @@ struct ContentView: View {
           HStack(spacing: ProxySizes.size0) {
             VStack(alignment: .leading, spacing: ProxySizes.size2) {
               Text("Return")
-                .bodyLargeSem()
-                
+                .bodyLargeSem()                
                 .foregroundColor(ProxyColors.textNeutralDisabled_Dark)
               Text("Step 1 of 2")
-                .bodyMicroSem()
-                
+                .bodyMicroSem()                
                 .foregroundColor(ProxyColors.textNeutralFaint_Light)
             }
           }
@@ -356,8 +321,7 @@ struct ContentView: View {
               HStack(spacing: ProxySizes.size0_5) {
                 HStack(spacing: ProxySizes.size0) {
                   Text("Setting")
-                    .bodySmallSem()
-                    
+                    .bodySmallSem()                    
                     .foregroundColor(ProxyColors.textNeutralDisabled_Dark)
                 }
                 .padding(EdgeInsets(top: ProxySizes.size0, leading: ProxySizes.size1_5, bottom: ProxySizes.size0, trailing: ProxySizes.size1_5))
